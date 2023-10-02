@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Ashley",
+        "siteName": "WebVortex.org",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
@@ -9,115 +9,57 @@
     },
     "header": {
         "logo": {
-            "symbol": "A.",
+            "symbol": "WebV.",
             "link": "/"
         },
         "menu": [
             {
-                "label": "Homepage",
+                "label": "Αρχική",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Landing Page",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Personal",
-                        "link": "/home-2"
-                    },
-                    {
-                        "label": "Home Slider",
-                        "link": "/projects-3"
-                    }
-                ]
+                "children": 0
             },
             {
-                "label": "Portfolio",
+                "label": "Δημιουργίες",
                 "link": "/projects",
-                "children": [
-                    {
-                        "label": "Grid Type 1",
-                        "link": "/projects"
-                    },
-                    {
-                        "label": "Grid Type 2",
-                        "link": "/projects-2"
-                    },
-                    {
-                        "label": "Slider",
-                        "link": "/projects-3"
-                    }
-                ]
+                "children": 0
             },
             {
-                "label": "Services",
+                "label": "Υπηρεσίες",
                 "link": "/services",
-                "children": [
-                    {
-                        "label": "Services List",
-                        "link": "/services"
-                    },
-                    {
-                        "label": "Single Service",
-                        "link": "/services/service-1"
-                    }
-                ]
+                "children": 0
             },
             {
                 "label": "Blog",
                 "link": "/blog",
-                "children": [
-                    {
-                        "label": "Blog list",
-                        "link": "/blog"
-                    },
-                    {
-                        "label": "Publication",
-                        "link": "/blog/play-to-your-strength-and-supercharge-your-business-4"
-                    }
-                ]
-            },
-            {
-                "label": "Contact",
-                "link": "/contact",
                 "children": 0
             },
             {
-                "label": "Other",
-                "link": "/team",
-                "children": [
-                    {
-                        "label": "Team",
-                        "link": "/team"
-                    },
-                    {
-                        "label": "404",
-                        "link": "/404"
-                    }
-                ]
+                "label": "Επικοινωνία",
+                "link": "/contact",
+                "children": 0
             }
         ]
     },
     "footer": {
         "logo": {
-            "text": "Ashley."
+            "text": "Web Vortex."
         },
-        "copy": "© 2023 Ashley. All Rights Reserved.",
+        "copy": "© 2023 Web Vortex. Όλα τα δικαιώματα διατηρούνται.",
         "menu": [
             {
-                "label": "Home",
+                "label": "Αρχική",
                 "link": "/"
             },
             {
-                "label": "Portfolio",
+                "label": "Δημιουργίες",
                 "link": "/projects"
             },
             {
-                "label": "Services",
+                "label": "Υπηρεσίες",
                 "link": "/services"
             },
             {
-                "label": "Contact",
+                "label": "Επικοινωνία",
                 "link": "/contact"
             },
             {
