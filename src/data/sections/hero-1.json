@@ -1,12 +1,12 @@
 {
-    "title": "Designing <span class=\"mil-thin\">a Better</span><br> World <span class=\"mil-thin\">Today</span>",
-    "description": "Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a remarkable journey where dreams become tangible realities.",
+    "title": "Δημιουργώντας <span class=\"mil-thin\">Έξυπνες</span><br> Λύσεις <span class=\"mil-thin\">Σήμερα</span>",
+    "description": "Καλώς ήρθατε στον κόσμο της καινοτομίας και της τεχνολογίας. Μαζί, ας αναπτύξουμε λύσεις που μετατρέπουν τις ιδέες σας σε πραγματικά ψηφιακά προϊόντα.",
     "button1": {
         "link": "/services",
-        "label": "What we do"
+        "label": "Υπηρεσίες Ανάπτυξης"
     },
     "button2": {
         "link": "/projects",
-        "label": "View works"
+        "label": "Προβολή Έργων"
     }
 }
