@@ -1,30 +1,30 @@
 {
-    "title1": "Unique <span class=\"mil-thin\">Ideas</span>",
-    "title2": "For Your <span class=\"mil-thin\">Business.</span>",
-    "subtitle": "Professionals focused on helping your brand<br/> grow and move forward.",
+    "title1": "Εξατομικευμένες <span class=\"mil-thin\">Λύσεις</span>",
+    "title2": "Για την <span class=\"mil-thin\">Επιχείρησή</span> Σας.",
+    "subtitle": "Ειδικοί στον τομέα της τεχνολογίας, αφοσιωμένοι στην εξέλιξη και ανάδειξη της μάρκας σας.",
     "button": {
         "link": "/services",
-        "label": "What we do"
+        "label": "Υπηρεσίες Που Προσφέρουμε"
     },
     "items": [
         {
-            "title": "Branding and <br>Identity Design",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "title": "Δημιουργία Μάρκας <br>και Σχεδίαση Ταυτότητας",
+            "text": "Σχεδιάζουμε και αναπτύσσουμε μοναδικές ταυτότητες μάρκας που εκφράζουν την ουσία και τους στόχους της επιχείρησής σας.",
             "link": "/services/service-1"
         },
         {
-            "title": "Website Design <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "title": "Σχεδίαση Ιστοσελίδων <br>και Ανάπτυξη",
+            "text": "Παρέχουμε λύσεις web development που είναι τόσο αισθητικά εντυπωσιακές όσο και λειτουργικές, εξασφαλίζοντας την καλύτερη εμπειρία για τους χρήστες.",
             "link": "/services/service-2"
         },
         {
-            "title": "Advertising and <br>Marketing Campaigns",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "title": "Διαφημιστικές Εκστρατείες <br>και Μάρκετινγκ",
+            "text": "Δημιουργούμε και εφαρμόζουμε στρατηγικές μάρκετινγκ που αυξάνουν την ορατότητα και τη δυναμική της επιχείρησής σας στο διαδίκτυο.",
             "link": "/services/service-3"
         },
         {
-            "title": "Creative Consulting <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "title": "Δημιουργική Συμβουλευτική <br>και Ανάπτυξη Προϊόντων",
+            "text": "Σας βοηθάμε να αναπτύξετε καινοτόμα ψηφιακά προϊόντα και υπηρεσίες που ανταποκρίνονται στις ανάγκες της αγοράς και ενισχύουν την ανταγωνιστικότητά σας.",
             "link": "/services/service-4"
         }
     ]
