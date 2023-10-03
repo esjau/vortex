@@ -18,7 +18,7 @@ const SubscribeSection = () => {
                     <div className="row justify-content-center mil-up">
                         <div className="col-lg-4">
                             <form action={AppData.settings.mailchimp.url} method="post" target="_blank" className="mil-subscribe-form mil-subscribe-form-2 mil-up">
-                                <input type="email" placeholder="Enter our email" name="EMAIL" required />
+                                <input type="email" placeholder="ΕΙΣΑΓΕΤΕ email" name="EMAIL" required />
                                 <input type="hidden" name={AppData.settings.mailchimp.key} />
                                 <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
                                     <ArrowIcon />
