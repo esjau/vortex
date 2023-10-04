@@ -17,7 +17,7 @@ const DefaultFooter = ( { extraClass } ) => {
 
                         <div className="mil-muted mil-logo mil-up mil-mb-30">{AppData.footer.logo.text}</div>
 
-                        <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
+                        <p className="mil-light-soft mil-up mil-mb-30">Εγγραφή στο newsletter μας:</p>
 
                         <form action={AppData.settings.mailchimp.url} method="post" target="_blank" className="mil-subscribe-form mil-up">
                             <input type="email" placeholder="Enter our email" name="EMAIL" required />
@@ -46,10 +46,10 @@ const DefaultFooter = ( { extraClass } ) => {
                             <div className="col-md-6 col-lg-5">
 
                                 <ul className="mil-menu-list mil-up mil-mb-60">
-                                    <li><a href="#." className="mil-light-soft">Privacy Policy</a></li>
-                                    <li><a href="#." className="mil-light-soft">Terms and conditions</a></li>
-                                    <li><a href="#." className="mil-light-soft">Cookie Policy</a></li>
-                                    <li><a href="#." className="mil-light-soft">Careers</a></li>
+                                    <li><a href="#." className="mil-light-soft">Πολιτική Απορρήτου</a></li>
+                                    <li><a href="#." className="mil-light-soft">Όροι Χρήσης</a></li>
+                                    <li><a href="#." className="mil-light-soft">Cookies</a></li>
+                                    <li><a href="#." className="mil-light-soft">Θέσεις Εργασίας</a></li>
                                 </ul>
 
                             </div>
@@ -64,16 +64,9 @@ const DefaultFooter = ( { extraClass } ) => {
 
                             <div className="col-md-6 col-lg-5 mil-mb-60">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Canada</h6>
+                                <h6 className="mil-muted mil-up mil-mb-30">Λονδίνο</h6>
 
                                 <p className="mil-light-soft mil-up">71 South Los Carneros Road, California <span className="mil-no-wrap">+51 174 705 812</span></p>
-
-                            </div>
-                            <div className="col-md-6 col-lg-5 mil-mb-60">
-
-                                <h6 className="mil-muted mil-up mil-mb-30">Germany</h6>
-
-                                <p className="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span className="mil-no-wrap">+31 174 705 811</span></p>
 
                             </div>
                         </div>
