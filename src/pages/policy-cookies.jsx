@@ -16,7 +16,12 @@ const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { 
 const Home1 = (props) => {
   return (
     <Layouts>
-      <p>xxxxx</p>
+      <HeroOneSection />
+      <AboutSection />
+      <ServicesSection />
+      <TeamSection />
+      <TestimonialSlider />
+      <PartnersSlider />
     </Layouts>
   );
 };

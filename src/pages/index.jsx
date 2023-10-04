@@ -9,6 +9,7 @@ import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
 import TeamSection from "@components/sections/Team";
 import LatestPostsSection from "@components/sections/LatestPosts";
+import CookiePolicy from '@components/CookiePolicy';
 
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
@@ -20,6 +21,7 @@ const Home1 = (props) => {
       <AboutSection />
       <ServicesSection />
       <TeamSection />
+      <CookiePolicy />
       <TestimonialSlider />
       <PartnersSlider />
     </Layouts>
