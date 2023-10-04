@@ -1,147 +1,77 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { formatDistanceToNow, addDays } from 'date-fns';
 import { gsap } from 'gsap';
 
 const CookiePolicy = () => {
   const [showBanner, setShowBanner] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-  const [preferences, setPreferences] = useState({
-    essential: true,
-    analytics: false,
-    marketing: false,
-  });
-
   const bannerRef = useRef(null);
-  const modalRef = useRef(null);
 
   useEffect(() => {
-    const cookieConsent = JSON.parse(localStorage.getItem('cookieConsent'));
+    const cookieConsent = localStorage.getItem('cookieConsent');
 
     if (!cookieConsent) {
       setShowBanner(true);
-      gsap.fromTo(bannerRef.current, { y: 100 }, { y: 0, duration: 0.5 });
-    } else {
-      setPreferences(cookieConsent);
+      gsap.from(bannerRef.current, {
+        duration: 1,
+        y: '100%',
+        ease: 'power3.out',
+      });
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('cookieConsent', JSON.stringify(preferences));
-    gsap.to(bannerRef.current, { y: 100, duration: 0.5 }).then(() => {
-      setShowBanner(false);
+    const expirationDate = addDays(new Date(), 30);
+    localStorage.setItem('cookieConsent', 'accepted');
+    localStorage.setItem('cookieConsentExpiry', expirationDate.toString());
+
+    gsap.to(bannerRef.current, {
+      duration: 1,
+      y: '100%',
+      ease: 'power3.in',
+      onComplete: () => setShowBanner(false),
     });
   };
 
-  const handlePreferenceChange = (e) => {
-    setPreferences({
-      ...preferences,
-      [e.target.name]: e.target.checked,
-    });
-  };
-
-  const openModal = () => {
-    setShowModal(true);
-    gsap.fromTo(modalRef.current, { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3 });
-  };
-
-  const closeModal = () => {
-    gsap.to(modalRef.current, { scale: 0.7, opacity: 0, duration: 0.3 }).then(() => {
-      setShowModal(false);
-    });
-  };
+  const remainingDays = formatDistanceToNow(new Date(localStorage.getItem('cookieConsentExpiry')));
 
   return (
     <>
       {showBanner && (
-        <div ref={bannerRef} style={bannerStyle}>
-          <p>
-            This website uses cookies to ensure you get the best experience.
-            <button onClick={openModal} style={buttonStyle}>
-              Customize
-            </button>
+        <div ref={bannerRef} style={{
+          position: 'fixed',
+          bottom: '0',
+          left: '0',
+          width: '100%',
+          backgroundColor: '#2C3E50',
+          color: '#ECF0F1',
+          textAlign: 'center',
+          padding: '1em',
+          zIndex: '1000',
+          boxShadow: '0px -2px 10px rgba(0, 0, 0, 0.1)',
+        }}>
+          <p style={{ fontSize: '1.1em' }}>
+            This website uses cookies to ensure you get the best experience. 
+            <a href="/cookie-policy" style={{ color: '#3498DB', textDecoration: 'underline' }}>Learn more</a>
           </p>
-          <button onClick={handleAccept} style={acceptButtonStyle}>
-            Accept All
-          </button>
-        </div>
-      )}
-
-      {showModal && (
-        <div ref={modalRef} style={modalStyle}>
-          <h2>Cookie Preferences</h2>
-          <label>
-            <input
-              type="checkbox"
-              name="essential"
-              checked={preferences.essential}
-              onChange={handlePreferenceChange}
-              disabled
-            />
-            Essential
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              name="analytics"
-              checked={preferences.analytics}
-              onChange={handlePreferenceChange}
-            />
-            Analytics
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              name="marketing"
-              checked={preferences.marketing}
-              onChange={handlePreferenceChange}
-            />
-            Marketing
-          </label>
-          <button onClick={handleAccept} style={acceptButtonStyle}>
-            Save Preferences
-          </button>
-          <button onClick={closeModal} style={buttonStyle}>
-            Cancel
+          <p style={{ fontSize: '0.8em', color: '#95A5A6' }}>
+            Consent expires in {remainingDays}
+          </p>
+          <button onClick={handleAccept} style={{
+            backgroundColor: '#3498DB',
+            color: '#ECF0F1',
+            padding: '10px 20px',
+            margin: '10px',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)',
+          }}>
+            Accept
           </button>
         </div>
       )}
     </>
   );
-};
-
-const bannerStyle = {
-  position: 'fixed',
-  bottom: '0',
-  left: '0',
-  width: '100%',
-  backgroundColor: '#333',
-  color: '#fff',
-  textAlign: 'center',
-  padding: '1em',
-  zIndex: '1000',
-};
-
-const buttonStyle = {
-  backgroundColor: '#555',
-  color: 'white',
-  padding: '10px 20px',
-  margin: '10px',
-  border: 'none',
-  cursor: 'pointer',
-};
-
-const acceptButtonStyle = {
-  ...buttonStyle,
-  backgroundColor: '#4CAF50',
-};
-
-const modalStyle = {
-  position: 'fixed',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  backgroundColor: '#fff',
-  padding: '2em',
-  zIndex: '1001',
 };
 
 export default CookiePolicy;
