@@ -15,7 +15,7 @@ const Services = (props) => {
     <Layouts>
       {/* banner */}
       <div className="mil-dark-bg">
-          <PageBannerDark pageTitle={"This is <span className=\"mil-thin\">what</span><br> we do <span className=\"mil-thin\">best</span>"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
+          <PageBannerDark pageTitle={"Αυτό είναι <span className=\"mil-thin\">που </span><br> κάνουμε <span className=\"mil-thin\">καλύτερα</span>"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
 
           {/* services */}
           <section id="services">
@@ -42,7 +42,7 @@ const Services = (props) => {
                                             ))}
                                           </ul>
                                           <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                              <span>Read more</span>
+                                              <span>Άνοιγμα</span>
                                               <ArrowIcon />
                                           </div>
                                       </Link>

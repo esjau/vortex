@@ -1,46 +1,92 @@
 {
     "title": "Reasonable <span class=\"mil-thin\">prices</span> <br/>for innovative <span class=\"mil-thin\">solutions</span>",
-    "description": "At our agency, we have a unique approach to web design and development. <br/>We believe in creating in terms of user experience, functionality.",
-    "items": [
+    "description": "At our agency, we offer a comprehensive range of web development services.",
+    "categories": [
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
-            "price": {
-                "value": "19",
-                "symbol": "$"
-            },
-            "link": "/contact"
+            "category": "Frontend Development",
+            "items": [
+                {
+                    "title": "HTML/CSS <br> Development",
+                    "text": "Basic static pages with responsive designs.",
+                    "price": {
+                        "value": "150",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "JavaScript <br> Development",
+                    "text": "Interactivity using plain JS or frameworks.",
+                    "price": {
+                        "value": "250",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "Responsive <br> Web Design",
+                    "text": "Optimizing for various screen sizes and devices.",
+                    "price": {
+                        "value": "200",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "UI/UX <br> Design",
+                    "text": "Enhanced user interface and experience.",
+                    "price": {
+                        "value": "300",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                }
+            ]
         },
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
-            "price": {
-                "value": "29",
-                "symbol": "$"
-            },
-            "link": "/contact"
-        },
-        {
-            "title": "Unleashing the Beauty of Space <br> with Unique Designs",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
-            "price": {
-                "value": "49",
-                "symbol": "$"
-            },
-            "link": "/contact"
-        },
-        {
-            "title": "Exquisite Design Concepts <br> for Discerning Clients",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
-            "price": {
-                "value": "199",
-                "symbol": "$"
-            },
-            "link": "/contact"
+            "category": "Backend Development",
+            "items": [
+                {
+                    "title": "Server-side <br> Scripting",
+                    "text": "Building the logic using PHP, Node.js, etc.",
+                    "price": {
+                        "value": "350",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "Database <br> Management",
+                    "text": "Designing and managing databases.",
+                    "price": {
+                        "value": "300",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "API <br> Development",
+                    "text": "Creating APIs for data exchange.",
+                    "price": {
+                        "value": "400",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                },
+                {
+                    "title": "User Authentication <br> and Authorization",
+                    "text": "Implementing security measures.",
+                    "price": {
+                        "value": "250",
+                        "symbol": "$"
+                    },
+                    "link": "/contact"
+                }
+            ]
         }
     ],
     "button": {
-        "label": "individual solution",
+        "label": "Get Custom Quote",
         "link": "/contact"
     }
 }
