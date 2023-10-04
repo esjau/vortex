@@ -8,22 +8,22 @@
     },
     "items": [
         {
-            "title": "Ανάπτυξη <br> Frontend",
+            "title": "Ανάπτυξη <br> Frontend 🖥️",
             "text": "Διαδραστικές και οπτικά εντυπωσιακές λύσεις frontend, συμπεριλαμβανομένων HTML/CSS και JavaScript.",
             "link": "/services/front-end"
         },
         {
-            "title": "Ανάπτυξη <br> Backend",
+            "title": "Ανάπτυξη <br> Backend 🗄️",
             "text": "Αξιόπιστες και κλιμακούμενες λύσεις backend, συμπεριλαμβανομένης της διαχείρισης API και βάσεων δεδομένων.",
             "link": "/services/back-end"
         },
         {
-            "title": "Λύσεις <br> CMS",
+            "title": "Λύσεις <br> CMS 📋",
             "text": "Προσαρμοσμένες λύσεις για WordPress, Joomla, Drupal και Magento για περιεχόμενο και ηλεκτρονικό εμπόριο.",
             "link": "/services/cms-development"
         },
         {
-            "title": "Απόδοση & <br> Βελτιστοποίηση",
+            "title": "Απόδοση & <br> Βελτιστοποίηση 🚀",
             "text": "Βελτιώστε την ταχύτητα και την ορατότητα του ιστότοπού σας με βελτιστοποίηση φόρτωσης και SEO.",
             "link": "/services/epidosi-beltistopisi"
         }
