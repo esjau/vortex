@@ -49,6 +49,7 @@ const CookiePolicy = () => {
     });
   };
 
+
   return (
     <>
       {showBanner && (
@@ -57,34 +58,28 @@ const CookiePolicy = () => {
           bottom: '0',
           left: '0',
           width: '100%',
-          backgroundColor: 'rgb(249, 224, 66)',
+          backgroundColor: '#F9E042',
           color: '#333',
           textAlign: 'center',
           padding: '1em',
+          borderRadius: '12px 12px 0 0',
           zIndex: '1000',
           boxShadow: '0px -2px 10px rgba(0, 0, 0, 0.1)'
         }}>
-          <p>
-            This website uses cookies to ensure you get the best experience.
-            <button onClick={openModal} style={{
-              backgroundColor: '#333',
-              color: 'white',
-              padding: '10px 20px',
-              margin: '10px',
-              border: 'none',
-              cursor: 'pointer'
-            }}>
-              Customize
-            </button>
-          </p>
+          {/* ... */}
           <button onClick={handleAccept} style={{
             backgroundColor: '#4CAF50',
             color: 'white',
             padding: '10px 20px',
             margin: '10px',
             border: 'none',
-            cursor: 'pointer'
-          }}>
+            cursor: 'pointer',
+            borderRadius: '8px',
+            transition: 'background-color 0.3s'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#45a049"}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#4CAF50"}
+          >
             Accept All
           </button>
         </div>
@@ -98,46 +93,24 @@ const CookiePolicy = () => {
           transform: 'translate(-50%, -50%)',
           backgroundColor: '#fff',
           padding: '2em',
+          borderRadius: '12px',
           zIndex: '1001',
           boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)'
         }}>
-          <h2>Cookie Preferences</h2>
-          <label>
-            <input
-              type="checkbox"
-              name="essential"
-              checked={preferences.essential}
-              onChange={handlePreferenceChange}
-              disabled
-            />
-            Essential
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              name="analytics"
-              checked={preferences.analytics}
-              onChange={handlePreferenceChange}
-            />
-            Analytics
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              name="marketing"
-              checked={preferences.marketing}
-              onChange={handlePreferenceChange}
-            />
-            Marketing
-          </label>
+          {/* ... */}
           <button onClick={handleAccept} style={{
             backgroundColor: '#4CAF50',
             color: 'white',
             padding: '10px 20px',
             margin: '10px',
             border: 'none',
-            cursor: 'pointer'
-          }}>
+            cursor: 'pointer',
+            borderRadius: '8px',
+            transition: 'background-color 0.3s'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#45a049"}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#4CAF50"}
+          >
             Save Preferences
           </button>
           <button onClick={closeModal} style={{
@@ -146,8 +119,13 @@ const CookiePolicy = () => {
             padding: '10px 20px',
             margin: '10px',
             border: 'none',
-            cursor: 'pointer'
-          }}>
+            cursor: 'pointer',
+            borderRadius: '8px',
+            transition: 'background-color 0.3s'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#2a2a2a"}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#333"}
+          >
             Cancel
           </button>
         </div>
