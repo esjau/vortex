@@ -1,92 +1,46 @@
 {
-    "title": "Reasonable <span class=\"mil-thin\">prices</span> <br/>for innovative <span class=\"mil-thin\">solutions</span>",
-    "description": "At our agency, we offer a comprehensive range of web development services.",
-    "categories": [
+    "title": "Λογικές <span class=\"mil-thin\">τιμές</span> <br/>για καινοτόμες <span class=\"mil-thin\">λύσεις</span>",
+    "description": "Στην WebVortex , παρέχουμε μια σειρά από υπηρεσίες που καλύπτουν τόσο το frontend όσο και το backend, λύσεις CMS και βελτιστοποίηση της απόδοσης. <span class=\"mil-thin\">*Οι τιμές είναι ενδεικτικές!</span>",
+    "items": [
         {
-            "category": "Frontend Development",
-            "items": [
-                {
-                    "title": "HTML/CSS <br> Development",
-                    "text": "Basic static pages with responsive designs.",
-                    "price": {
-                        "value": "150",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "JavaScript <br> Development",
-                    "text": "Interactivity using plain JS or frameworks.",
-                    "price": {
-                        "value": "250",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "Responsive <br> Web Design",
-                    "text": "Optimizing for various screen sizes and devices.",
-                    "price": {
-                        "value": "200",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "UI/UX <br> Design",
-                    "text": "Enhanced user interface and experience.",
-                    "price": {
-                        "value": "300",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                }
-            ]
+            "title": "Ανάπτυξη <br> Frontend",
+            "text": "Διαδραστικές και οπτικά εντυπωσιακές λύσεις frontend, συμπεριλαμβανομένων HTML/CSS και JavaScript.",
+            "price": {
+                "value": "450",
+                "symbol": "€"
+            },
+            "link": "/contact"
         },
         {
-            "category": "Backend Development",
-            "items": [
-                {
-                    "title": "Server-side <br> Scripting",
-                    "text": "Building the logic using PHP, Node.js, etc.",
-                    "price": {
-                        "value": "350",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "Database <br> Management",
-                    "text": "Designing and managing databases.",
-                    "price": {
-                        "value": "300",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "API <br> Development",
-                    "text": "Creating APIs for data exchange.",
-                    "price": {
-                        "value": "400",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                },
-                {
-                    "title": "User Authentication <br> and Authorization",
-                    "text": "Implementing security measures.",
-                    "price": {
-                        "value": "250",
-                        "symbol": "$"
-                    },
-                    "link": "/contact"
-                }
-            ]
+            "title": "Ανάπτυξη <br> Backend",
+            "text": "Αξιόπιστες και κλιμακούμενες λύσεις backend, συμπεριλαμβανομένης της διαχείρισης API και βάσεων δεδομένων.",
+            "price": {
+                "value": "500",
+                "symbol": "€"
+            },
+            "link": "/contact"
+        },
+        {
+            "title": "Λύσεις <br> CMS",
+            "text": "Προσαρμοσμένες λύσεις για WordPress, Joomla, Drupal και Magento για περιεχόμενο και ηλεκτρονικό εμπόριο.",
+            "price": {
+                "value": "290",
+                "symbol": "€"
+            },
+            "link": "/contact"
+        },
+        {
+            "title": "Απόδοση & <br> Βελτιστοποίηση",
+            "text": "Βελτιώστε την ταχύτητα και την ορατότητα του ιστότοπού σας με βελτιστοποίηση φόρτωσης και SEO.",
+            "price": {
+                "value": "220",
+                "symbol": "€"
+            },
+            "link": "/contact"
         }
     ],
     "button": {
-        "label": "Get Custom Quote",
+        "label": "Λάβετε Προσφορά",
         "link": "/contact"
     }
 }
