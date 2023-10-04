@@ -37,6 +37,15 @@
                 "symbol": "€"
             },
             "link": "/contact"
+        },
+        {
+            "title": "Ανάπτυξη <br> WordPress Plugins",
+            "text": "Αφήστε μας να σας φτίαξουμε το δικό σας plugin για τις δικές σας ανάγκες! ",
+            "price": {
+                "value": "220",
+                "symbol": "€"
+            },
+            "link": "/contact"
         }
     ],
     "button": {

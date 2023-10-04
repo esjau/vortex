@@ -10,22 +10,22 @@
         {
             "title": "Ανάπτυξη <br> Frontend",
             "text": "Διαδραστικές και οπτικά εντυπωσιακές λύσεις frontend, συμπεριλαμβανομένων HTML/CSS και JavaScript.",
-            "link": "/services/service-1"
+            "link": "/services/front-end"
         },
         {
             "title": "Ανάπτυξη <br> Backend",
             "text": "Αξιόπιστες και κλιμακούμενες λύσεις backend, συμπεριλαμβανομένης της διαχείρισης API και βάσεων δεδομένων.",
-            "link": "/services/service-2"
+            "link": "/services/back-end"
         },
         {
             "title": "Λύσεις <br> CMS",
             "text": "Προσαρμοσμένες λύσεις για WordPress, Joomla, Drupal και Magento για περιεχόμενο και ηλεκτρονικό εμπόριο.",
-            "link": "/services/service-3"
+            "link": "/services/cms-development"
         },
         {
             "title": "Απόδοση & <br> Βελτιστοποίηση",
             "text": "Βελτιώστε την ταχύτητα και την ορατότητα του ιστότοπού σας με βελτιστοποίηση φόρτωσης και SEO.",
-            "link": "/services/service-3"
+            "link": "/services/epidosi-beltistopisi"
         }
     ]
 }
