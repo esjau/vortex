@@ -50,21 +50,23 @@ const CookiePolicy = () => {
   };
 
 
+
   return (
     <>
       {showBanner && (
         <div ref={bannerRef} style={{
           position: 'fixed',
-          bottom: '0',
-          left: '0',
-          width: '100%',
+          bottom: '50%',
+          left: '50%',
+          transform: 'translate(-50%, 50%)',
+          width: 'auto',
           backgroundColor: '#F9E042',
           color: '#333',
           textAlign: 'center',
           padding: '1em',
-          borderRadius: '12px 12px 0 0',
+          borderRadius: '12px',
           zIndex: '1000',
-          boxShadow: '0px -2px 10px rgba(0, 0, 0, 0.1)'
+          boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)'
         }}>
           {/* ... */}
           <button onClick={handleAccept} style={{
@@ -133,5 +135,6 @@ const CookiePolicy = () => {
     </>
   );
 };
+
 
 export default CookiePolicy;
