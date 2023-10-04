@@ -21,7 +21,6 @@ const Home1 = (props) => {
       <AboutSection />
       <ServicesSection />
       <TeamSection />
-      <CookiePolicy />
       <TestimonialSlider />
       <PartnersSlider />
     </Layouts>
