@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import Link from "next/link";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
+import Pentagon from "@layouts/pentagon/Index";
 
 const CookiePolicy = () => {
   const [showBanner, setShowBanner] = useState(false);
@@ -49,8 +52,6 @@ const CookiePolicy = () => {
     });
   };
 
-
-
   return (
     <>
       {showBanner && (
@@ -60,29 +61,20 @@ const CookiePolicy = () => {
           left: '50%',
           transform: 'translate(-50%, 50%)',
           width: 'auto',
-          backgroundColor: '#F9E042',
-          color: '#333',
+          backgroundColor: '#000',
+          color: '#fff',
           textAlign: 'center',
           padding: '1em',
           borderRadius: '12px',
           zIndex: '1000',
           boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)'
         }}>
-          {/* ... */}
-          <button onClick={handleAccept} style={{
-            backgroundColor: '#4CAF50',
-            color: 'white',
-            padding: '10px 20px',
-            margin: '10px',
-            border: 'none',
-            cursor: 'pointer',
-            borderRadius: '8px',
-            transition: 'background-color 0.3s'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#45a049"}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#4CAF50"}
-          >
-            Accept All
+          <p>This website uses cookies to ensure you get the best experience.</p>
+          <button onClick={openModal} className="mil-button mil-arrow-place mil-btn-space">
+            Configure
+          </button>
+          <button onClick={handleAccept} className="mil-button mil-arrow-place mil-btn-space">
+            Consent
           </button>
         </div>
       )}
@@ -99,35 +91,12 @@ const CookiePolicy = () => {
           zIndex: '1001',
           boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)'
         }}>
-          {/* ... */}
-          <button onClick={handleAccept} style={{
-            backgroundColor: '#4CAF50',
-            color: 'white',
-            padding: '10px 20px',
-            margin: '10px',
-            border: 'none',
-            cursor: 'pointer',
-            borderRadius: '8px',
-            transition: 'background-color 0.3s'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#45a049"}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#4CAF50"}
-          >
+          <h2>Cookie Preferences</h2>
+          {/* ... No changes here for checkboxes ... */}
+          <button onClick={handleAccept} className="mil-button mil-arrow-place mil-btn-space">
             Save Preferences
           </button>
-          <button onClick={closeModal} style={{
-            backgroundColor: '#333',
-            color: 'white',
-            padding: '10px 20px',
-            margin: '10px',
-            border: 'none',
-            cursor: 'pointer',
-            borderRadius: '8px',
-            transition: 'background-color 0.3s'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#2a2a2a"}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#333"}
-          >
+          <button onClick={closeModal} className="mil-button mil-arrow-place mil-btn-space">
             Cancel
           </button>
         </div>
