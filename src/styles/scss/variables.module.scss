@@ -44,14 +44,14 @@ $gs-80: rgba(51, 51, 51, 1);
 $gs-90: rgba(26, 26, 26, 1);
 $gs-95: rgba(13, 13, 13, 1);
 
-$h1: 86px;
-$h2: 68px;
-$h3: 42px;
-$h4: 28px;
-$h5: 20px;
-$h6: 18px;
+$h1: 72px;  // Was 86px
+$h2: 56px;  // Was 68px
+$h3: 36px;  // Was 42px
+$h4: 24px;  // Was 28px
+$h5: 18px;  // Was 20px
+$h6: 16px;  // Was 18px
 
-$text: 16px;
+$text: 14px;  // Was 16px
 
 $t-sm: .2s cubic-bezier(0, 0, 0.3642, 1);
 $t-md: .4s cubic-bezier(0, 0, 0.3642, 1);
