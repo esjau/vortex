@@ -77,24 +77,6 @@
                 "link": "/services"
             },
             {
-                "label": "Χρήσιμα Εργαλεία",
-                "link":"#",
-                "children": [
-                    {
-                        "label": "Whois",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Πληροφορίες IP",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Καταχώρυση Domain",
-                        "link": "/projects-3"
-                    }
-                ]
-            },
-            {
                 "label": "Επικοινωνία",
                 "link": "/contact"
             },
