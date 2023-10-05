@@ -1,35 +1,123 @@
 {
-    "title": "Ανακαλύψτε τα project <br> μας και εμπνευστείτε!",
-    "description": "<p>Η WebVortex είναι μια εταιρεία ανάπτυξης ιστοσελίδων που προωθεί την τεχνολογία που συνδυάζει τις γνώσεις πελατών με καινοτόμες λύσεις. Δημιουργούμε κατά παραγγελία στρατηγικές για κάθε πελάτη μας, προσαρμοσμένες στις μοναδικές ανάγκες και στόχους του. Ως αποτέλεσμα, έχουμε λανσάρει με επιτυχία πάνω από 50 ιστότοπους και εφαρμογές ιστού υψηλής απόδοσης, οδηγώντας σε σημαντική ανάπτυξη για τους πελάτες μας.</p>",
-    "subtitle": "<span class=\"mil-thin\">Δημιουργία</span>  Ψηφιακής Αριστείας <br><span class=\"mil-thin\">με εξατομικευμένη</span> αφή.",
+  "title": "Ανακαλύψτε τα project <br> μας και εμπνευστείτε!",
+  "description": "<p>Η WebVortex είναι μια εταιρεία ανάπτυξης ιστοσελίδων που προωθεί την τεχνολογία που συνδυάζει τις γνώσεις πελατών με καινοτόμες λύσεις. Δημιουργούμε κατά παραγγελία στρατηγικές για κάθε πελάτη μας, προσαρμοσμένες στις μοναδικές ανάγκες και στόχους του. Ως αποτέλεσμα, έχουμε λανσάρει με επιτυχία πάνω από 50 ιστότοπους και εφαρμογές ιστού υψηλής απόδοσης, οδηγώντας σε σημαντική ανάπτυξη για τους πελάτες μας.</p>",
+  "subtitle": "<span class=\"mil-thin\">Δημιουργία</span>  Ψηφιακής Αριστείας <br><span class=\"mil-thin\">με εξατομικευμένη</span> αφή.",
 
-    "button": {
-        "link": "/projects",
-        "label": "Δείτε τα projects"
+  "button": {
+    "link": "/projects",
+    "label": "Δείτε τα projects"
+  },
+  "note": "<span class=\"mil-accent\">*</span> Μερικά απο τα projects μας",
+  "col1_items": [
+    {
+      "image": "/img/faces/1.jpg",
+      "name": "Golden Flower Apartments",
+      "role": "Επιχείρηση Ενοικιαζόμενων Διαμερισμάτων",
+      "social": [
+        {
+          "icon": "fab fa-behance",
+          "link": "https://behance.com",
+          "title": "behance"
+        },
+        {
+          "icon": "fab fa-dribbble",
+          "link": "https://dribbble.com",
+          "title": "dribbble"
+        },
+        {
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "twitter"
+        },
+        {
+          "icon": "fab fa-github",
+          "link": "https://github.com",
+          "title": "github"
+        }
+      ]
     },
-    "note": "<span class=\"mil-accent\">*</span> Μερικά απο τα projects μας",
-    "col1_items": [
+    {
+      "image": "/img/faces/3.jpg",
+      "name": "Idyll Store",
+      "role": "Επιχείρηση με έργα τέχνης",
+      "social": [
         {
-            "image": "/img/faces/1.jpg",
-            "name": "Golden Flower Apartments",
-            "role": "Επιχείρηση Ενοικιαζόμενων Διαμερισμάτων"
+          "icon": "fab fa-behance",
+          "link": "https://behance.com",
+          "title": "behance"
         },
         {
-            "image": "/img/faces/3.jpg",
-            "name": "Idyll Store",
-            "role": "Επιχείρηση με έργα τέχνης"
-        }
-    ],
-    "col2_items": [
-        {
-            "image": "/img/faces/4.jpg",
-            "name": "eAutomobile Ads",
-            "role": "Πλατφόρμα Πώλησης Αυτοκινήτων"
+          "icon": "fab fa-dribbble",
+          "link": "https://dribbble.com",
+          "title": "dribbble"
         },
         {
-            "image": "/img/faces/5.jpg",
-            "name": "Flexoow",
-            "role": "Επιχείρηση Ενοικίασης Ποδηλάτων"
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "twitter"
+        },
+        {
+          "icon": "fab fa-github",
+          "link": "https://github.com",
+          "title": "github"
         }
-    ]
+      ]
+    }
+  ],
+  "col2_items": [
+    {
+      "image": "/img/faces/4.jpg",
+      "name": "eAutomobile Ads",
+      "role": "Πλατφόρμα Πώλησης Αυτοκινήτων",
+      "social": [
+        {
+          "icon": "fab fa-behance",
+          "link": "https://behance.com",
+          "title": "behance"
+        },
+        {
+          "icon": "fab fa-dribbble",
+          "link": "https://dribbble.com",
+          "title": "dribbble"
+        },
+        {
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "twitter"
+        },
+        {
+          "icon": "fab fa-github",
+          "link": "https://github.com",
+          "title": "github"
+        }
+      ]
+    },
+    {
+      "image": "/img/faces/5.jpg",
+      "name": "Flexoow",
+      "role": "Επιχείρηση Ενοικίασης Ποδηλάτων",
+      "social": [
+        {
+          "icon": "fab fa-behance",
+          "link": "https://behance.com",
+          "title": "behance"
+        },
+        {
+          "icon": "fab fa-dribbble",
+          "link": "https://dribbble.com",
+          "title": "dribbble"
+        },
+        {
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "twitter"
+        },
+        {
+          "icon": "fab fa-github",
+          "link": "https://github.com",
+          "title": "github"
+        }
+      ]
+    }
+  ]
 }
