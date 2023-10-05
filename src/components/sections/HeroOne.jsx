@@ -7,7 +7,6 @@ const HeroOne = () => {
     return (
         <>
             {/* banner */}
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=minimal&customize=1&tracking=1&thirdparty=1&always=1&noGeoIp=1&scrolling=1&refreshPage=1&showNoConsent=1&showPolicyLink=1&privacyPage=%2Fpolicy"></script>
             <section className="mil-banner mil-dark-bg">
                 <div className="mi-invert-fix">
                     <div className="mil-animation-frame">
