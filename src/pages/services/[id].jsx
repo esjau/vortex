@@ -21,7 +21,7 @@ const ServiceDetail = ( { data, related } ) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"About service"} anchorLink={"#service"} />
+      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"ήμαστε οι καλύτεροι"} anchorLink={"#service"} />
 
       {/* service */}
       <section id="service">

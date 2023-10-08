@@ -15,14 +15,14 @@ const PostsDetail = ( props ) => {
   return (
     <Layouts>
       
-      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
+      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"δημοσιεύσεις"} anchorLink={"#blog"} paddingBottom={1} />
       
       {/* blog */}
       <section id="blog">
           <div className="container mil-p-120-120">
               <div className="row align-items-center mil-mb-30">
                   <div className="col-lg-4 mil-mb-30">
-                      <h3 className="mil-up">Other categories:</h3>
+                      <h3 className="mil-up">άλλες κατηγορίες:</h3>
                   </div>
                   <div className="col-lg-8 mil-mb-30">
                       <div className="mil-adaptive-right mil-up">
@@ -31,7 +31,7 @@ const PostsDetail = ( props ) => {
                               {categories.map((item, key) => (
                               <li key={`categories-item-${key}`}><Link href={`/blog/category/${item.id}`} className={ item.id == props.id ? "mil-active" : ""}>{item.title}</Link></li>
                               ))}
-                              <li key={`categories-item-0`}><Link href="/blog">All categories</Link></li>
+                              <li key={`categories-item-0`}><Link href="/blog">όλες οι κατηγορίες</Link></li>
                           </ul>
                       </div>
                   </div>
@@ -52,7 +52,7 @@ const PostsDetail = ( props ) => {
                               <h4 className="mil-up mil-mb-30">{item.title}</h4>
                               <p className="mil-post-text mil-up mil-mb-30">{item.short}</p>
                               <div className="mil-link mil-dark mil-arrow-place mil-up">
-                                  <span>Read more</span>
+                                  <span>διαβάστε περισσότερα</span>
                               </div>
                           </div>
                       </a>

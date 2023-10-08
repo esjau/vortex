@@ -16,7 +16,7 @@ import PopularsPostsData from "@data/sections/popular-posts.json";
 const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
   return (
     <Layouts>
-      <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
+      <PageBanner pageTitle={"ανακαλύπτοντας <span className=\"mil-thin\">νέες τεχνικές</span> <br> μέσω του <span className=\"mil-thin\">Blog μας</span>"} breadTitle={"Blog"} anchorLabel={"δημοσιεύσεις"} anchorLink={"#blog"} paddingBottom={1} />
 
       <PopularPosts posts={popular} />
 
@@ -25,7 +25,7 @@ const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
         <div className="container mil-p-120-120">
           <div className="row align-items-center mil-mb-30">
               <div className="col-lg-4 mil-mb-30">
-                  <h3 className="mil-up">Categories:</h3>
+                  <h3 className="mil-up">κατηγορίες:</h3>
               </div>
               <div className="col-lg-8 mil-mb-30">
                   <div className="mil-adaptive-right mil-up">
@@ -34,7 +34,7 @@ const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
                           {categories.map((item, key) => (
                           <li key={`categories-item-${key}`}><Link href={`/blog/category/${item.id}`}>{item.title}</Link></li>
                           ))}
-                          <li><Link href="/blog" className="mil-active">All categories</Link></li>
+                          <li><Link href="/blog" className="mil-active">όλες οι κατηγορίες</Link></li>
                       </ul>
                   </div>
               </div>

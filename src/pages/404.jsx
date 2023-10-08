@@ -21,10 +21,10 @@ const E404 = () => {
                           <h1 className="mil-404" data-text="404">404</h1>
                       </div>
 
-                      <h4 className="mil-404-text mil-dark mil-mb-60">Η σελίδα δεν βρέθηκε :(</h4>
+                      <h4 className="mil-404-text mil-dark mil-mb-60">η σελίδα δεν βρέθηκε :(</h4>
 
                       <Link href="/" className="mil-button mil-arrow-place">
-                        <span>Πάμε πίσω στην αρχική;</span>
+                        <span>πάμε πίσω στην αρχική;</span>
                         <ArrowIcon />
                       </Link>
                   </div>

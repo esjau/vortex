@@ -8,23 +8,23 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 const Contact = () => {
   return (
     <Layouts>
-        <PageBanner pageTitle={"Ας μιλήσουμε!"} breadTitle={"Επικοινωνία"} anchorLabel={"Στείλτε το αίτημα σας"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
+        <PageBanner pageTitle={"ας μιλήσουμε!"} breadTitle={"επικοινωνία"} anchorLabel={"στείλτε το αίτημα σας"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
         {/* contact form */}
         <section id="contact">
             <div className="container mil-p-120-90">
-                <h3 className="mil-center mil-up mil-mb-120">Let's <span className="mil-thin">Talk</span></h3>
+                <h3 className="mil-center mil-up mil-mb-120">Let's <span className="mil-thin">ήμαστε εδώ</span></h3>
 
                 <Formik
                 initialValues = {{ email: '', name: '', message: '' }}
                 validate = { values => {
                     const errors = {};
                     if (!values.email) {
-                        errors.email = 'Υποχρεωτικό';
+                        errors.email = 'υποχρεωτικό';
                     } else if (
                         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
                     ) {
-                        errors.email = 'Η διεύθυνση email δεν είναι σωστή.';
+                        errors.email = 'η διεύθυνση email δεν είναι σωστή.';
                     }
                     return errors;
                 }}
@@ -45,7 +45,7 @@ const Contact = () => {
                         }
                     }).then(response => {
                         if (response.ok) {
-                            status.innerHTML = "Ευχαριστούμε! Θα επικοινωνήσουμε μαζί σας άμμεσα! ";
+                            status.innerHTML = "ευχαριστούμε! θα επικοινωνήσουμε μαζί σας άμμεσα! ";
                             form.reset()
                         } else {
                             response.json().then(data => {
@@ -77,7 +77,7 @@ const Contact = () => {
                     <div className="col-lg-6 mil-up">
                         <input 
                             type="text" 
-                            placeholder="Όνοματεπώνυμο"
+                            placeholder="ονοματεπώνυμο"
                             name="name" 
                             required="required" 
                             onChange={handleChange}
@@ -88,7 +88,7 @@ const Contact = () => {
                     <div className="col-lg-6 mil-up">
                         <input 
                             type="email" 
-                            placeholder="Διεύθυνση Email"
+                            placeholder="διεύθυνση email"
                             name="email"
                             required="required"
                             onChange={handleChange}
@@ -98,7 +98,7 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-12 mil-up">
                         <textarea 
-                            placeholder="Πείτε μας περισσότερα για την ιδέα σας! "
+                            placeholder="πείτε μας περισσότερα για την ιδέα σας! "
                             name="message" 
                             required="required"
                             onChange={handleChange}
@@ -107,12 +107,12 @@ const Contact = () => {
                         />
                     </div>
                     <div className="col-lg-8">
-                        <p className="mil-up mil-mb-30"><span className="mil-accent">*</span> Υποσχόμαστε να μην αποκαλύψουμε τα προσωπικά σας στοιχεία σε τρίτους.</p>
+                        <p className="mil-up mil-mb-30"><span className="mil-accent">*</span> υποσχόμαστε να μην αποκαλύψουμε τα προσωπικά σας στοιχεία σε τρίτους.</p>
                     </div>
                     <div className="col-lg-4">
                         <div className="mil-adaptive-right mil-up mil-mb-30">
                             <button type="submit" className="mil-button mil-arrow-place">
-                                <span>Αποστολή μηνύματος</span>
+                                <span>αποστολή μηνύματος</span>
                                 <ArrowIcon />
                             </button>
                         </div>

@@ -1,8 +1,8 @@
 {
-    "title": "Similar Publications:",
+    "title": "παρόμοιες δημοσιεύσεις:",
     "numOfItems": 2,
     "button": {
-        "label": "View all",
+        "label": "Δείτε όλα",
         "link": "/blog"
     }
 }

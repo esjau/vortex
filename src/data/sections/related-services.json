@@ -1,8 +1,8 @@
 {
-    "title": "Other services",
+    "title": "λοιπές υπηρεσίες",
     "numOfItems": 3,
     "button": {
         "link": "/services",
-        "label": "View all"
+        "label": "ανακαλύψτε"
     }
 }
